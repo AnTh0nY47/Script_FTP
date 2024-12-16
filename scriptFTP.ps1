@@ -1,10 +1,10 @@
 # Paramètres initiaux
 param (
-    [string]$FtpServer = "172.20.198.167",               # Adresse du serveur FTP
-    [string]$FtpUsername = "anthony2",                     # Nom d'utilisateur FTP
-    [string]$FtpPassword = "azerty",                      # Mot de passe FTP
-    [string]$RemoteFilePath = "/home/anthony2/ftp/upload/var.tar.gz",  # Chemin du fichier distant
-    [string]$LocalFilePath = "C:\Archives\var.tar.gz",   # Chemin du fichier local
+    [string]$FtpServer = "adresse_serveur_FTP",               # Adresse du serveur FTP
+    [string]$FtpUsername = "nom_utilisateur_FTP",                     # Nom d'utilisateur FTP
+    [string]$FtpPassword = "mot_de_passe_FTP",                      # Mot de passe FTP
+    [string]$RemoteFilePath = "chemin_fichier_distant",  # Chemin du fichier distant
+    [string]$LocalFilePath = "chemin_accès_fichier_local",   # Chemin du fichier local
     [string]$AdminEmail = "adresse_mail_administrateur",            # Email de l'administrateur
     [string]$SmtpServer = "adresse_serveur_SMTP",             # Serveur SMTP pour les emails
     [int]$SmtpPort = 587,                                 # Port SMTP (souvent 587 ou 465)
