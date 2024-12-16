@@ -5,11 +5,11 @@ param (
     [string]$FtpPassword = "azerty",                      # Mot de passe FTP
     [string]$RemoteFilePath = "/home/anthony2/ftp/upload/var.tar.gz",  # Chemin du fichier distant
     [string]$LocalFilePath = "C:\Archives\var.tar.gz",   # Chemin du fichier local
-    [string]$AdminEmail = "anth.boudet2@gmail.com",            # Email de l'administrateur
-    [string]$SmtpServer = "smtp.gmail.com",             # Serveur SMTP pour les emails
+    [string]$AdminEmail = "adresse_mail_administrateur",            # Email de l'administrateur
+    [string]$SmtpServer = "adresse_serveur_SMTP",             # Serveur SMTP pour les emails
     [int]$SmtpPort = 587,                                 # Port SMTP (souvent 587 ou 465)
-    [string]$SmtpUser = "anth.boudet@gmail.com",               # Utilisateur SMTP
-    [string]$SmtpPassword = "Tonydu47"           # Mot de passe SMTP
+    [string]$SmtpUser = "adresse_mail_utilisateur_SMTP",               # Utilisateur SMTP
+    [string]$SmtpPassword = "votre_mot_de_passe_mail_SMTP"           # Mot de passe SMTP
 )
 
 # Configuration des logs
