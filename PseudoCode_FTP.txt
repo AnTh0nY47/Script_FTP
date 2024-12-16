@@ -1,0 +1,29 @@
+1. Définir les paramètres :
+   - Serveur FTP
+   - Utilisateur FTP
+   - Mot de passe FTP
+   - Chemin du fichier distant
+   - Chemin du fichier local
+   - Email de l'administrateur
+   - Serveur SMTP
+   - Informations d'authentification SMTP
+
+2. Créer un fichier de log pour enregistrer les événements du script
+
+3. Définir une fonction pour envoyer un email de notification :
+   - Connecter au serveur SMTP
+   - Envoyer un email avec le résultat (succès ou échec)
+
+4. Définir une fonction pour télécharger un fichier via FTP :
+   - Se connecter au serveur FTP
+   - Télécharger le fichier distant vers le fichier local
+   - Si le téléchargement réussit, enregistrer dans le log et renvoyer un succès
+   - Si une erreur survient, enregistrer l'erreur dans le log et renvoyer un échec
+
+5. Définir la fonction principale qui exécute le script :
+   - Tenter de télécharger le fichier via FTP
+   - Si le téléchargement réussit, préparer un email de succès
+   - Si le téléchargement échoue, préparer un email d'échec
+   - Envoyer l'email de notification avec le résultat
+
+6. Exécuter la fonction principale pour lancer le script
